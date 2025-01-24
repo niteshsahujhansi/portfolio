@@ -5,7 +5,7 @@ import React from "react";
 const TestImageSection: React.FC = () => {
   return (
     <section
-      className="flex flex-col md:flex-row items-center justify-between px-6 py-12 md:py-0 bg-gray-200 dark:bg-gray-900"
+      className="flex flex-col md:flex-row items-center justify-between px-6 py-12 md:py-0 "
       style={{ minHeight: "calc(100vh - 80px)" }} // Ensure it doesn't go under navbar
     >
       {/* Text Section */}

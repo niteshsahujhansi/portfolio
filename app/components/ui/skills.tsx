@@ -139,7 +139,7 @@ const Skills: React.FC = () => {
   ];
 
   return (
-    <section className="py-10 bg-gray-200 dark:bg-gray-900 text-gray-800 dark:text-white">
+    <section className="py-10  text-gray-800 dark:text-white">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl md:text-5xl mb-8 text-center text-[#008082] dark:text-[#00b3b3]">
           My Skills

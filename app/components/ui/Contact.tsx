@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section className="py-16 bg-gray-200 dark:bg-gray-900 text-gray-800 dark:text-white">
+    <section className="py-16  text-gray-800 dark:text-white">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-center text-[#008082] dark:text-[#00b3b3] mb-8">
           Contact Me

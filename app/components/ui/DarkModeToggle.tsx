@@ -36,7 +36,7 @@ const DarkModeToggle: React.FC = () => {
   return (
     <button
       onClick={toggleDarkMode}
-      className="p-2 rounded-full border border-gray-600 bg-gray-200 dark:bg-gray-700 dark:border-gray-500"
+      className="p-2 rounded-full border border-gray-600  dark:bg-gray-700 dark:border-gray-500"
     >
       {isDarkMode ? (
         <span className="text-yellow-500">🌙</span> // Dark mode icon

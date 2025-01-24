@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub, FaTwitter, FaGlobe } from "react-icons/fa";
 
 const SocialLinks: React.FC = () => {
   return (
-    <section className="py-16 bg-gray-200 dark:bg-gray-900 text-gray-800 dark:text-white">
+    <section className="py-16  text-gray-800 dark:text-white">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-10 text-[#008082] dark:text-[#00b3b3]">
           Connect with Me

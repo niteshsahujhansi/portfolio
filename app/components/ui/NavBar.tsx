@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <nav className="bg-white dark:bg-gray-900 bg-opacity-100 dark:bg-opacity-100 text-gray-800 dark:text-white p-4 shadow-md sticky top-0 z-50">
+    <nav className="bg-white bg-opacity-95 dark:bg-opacity-95 text-gray-800 dark:bg-gray-900 dark:text-white p-4 shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo or Title */}
         <Link href="/" className="text-2xl font-bold text-[#008082] dark:text-[#00b3b3]">
