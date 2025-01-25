@@ -10,7 +10,7 @@ const ExperienceSection: React.FC = () => {
           Experience
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 border-l-4 border-[#008082] dark:border-[#00b3b3]">
+          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 border-l-4 border-[#008082] dark:border-[#00b3b3]">
             <h3 className="text-xl text-[#008082] dark:text-[#00b3b3] font-semibold mb-2">
               Python Developer
             </h3>

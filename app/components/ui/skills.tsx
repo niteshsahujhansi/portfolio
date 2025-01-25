@@ -133,11 +133,11 @@ const Skills: React.FC = () => {
         <h2 className="h2-heading">
           My Skills
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-7   gap-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-7 gap-2">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-transparent p-3 flex flex-col items-center text-center"
+              className="bg-transparent p-3 flex flex-col items-center text-center bg-gray-50 dark:bg-gray-800"
             >
               {/* SVG Icon */}
               {skill.type === "svg" ? (

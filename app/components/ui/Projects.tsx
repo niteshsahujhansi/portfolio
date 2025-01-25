@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="p-6 bg-white dark:bg-gray-800 rounded-lg border-l-4 border-[#008082] dark:border-[#00b3b3]"
+              className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg border-l-4 border-[#008082] dark:border-[#00b3b3]"
             >
               <h3 className="text-xl font-semibold text-[#008082] dark:text-[#00b3b3] mb-2">
                 {project.title}
