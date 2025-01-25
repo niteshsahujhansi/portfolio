@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* html {
+  scroll-behavior: smooth;
+} */
+
 :root {
   --background: #EFEFEF;
   --foreground: black;
@@ -25,4 +29,10 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.h2-heading {
+  /* @apply text-2xl md:text-3xl font-bold my-10 text-center text-[#008082] dark:text-[#00b3b3]; */
+  @apply text-2xl md:text-3xl font-bold my-10 text-center text-[#193555] dark:text-[#00b3b3];
 }

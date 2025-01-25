@@ -26,9 +26,9 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section className="py-16  text-gray-800 dark:text-white">
+    <section id="contact" className="py-16  text-gray-800 dark:text-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-[#008082] dark:text-[#00b3b3] mb-8">
+        <h2 className="h2-heading">
           Contact Me
         </h2>
 
@@ -41,13 +41,13 @@ const Contact: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <span className="text-gray-600 dark:text-gray-400 mr-3">📧</span>
-                <a href="mailto:your-email@example.com" className="text-[#008082] dark:text-[#00b3b3]">
-                  your-email@example.com
+                <a href="mailto:niteshsahujhansi@gmail.com" className="text-[#008082] dark:text-[#00b3b3]">
+                  niteshsahujhansi@gmail.com
                 </a>
               </div>
               <div className="flex items-center">
                 <span className="text-gray-600 dark:text-gray-400 mr-3">📱</span>
-                <p className="text-[#008082] dark:text-[#00b3b3]">+1 (123) 456-7890</p>
+                <p className="text-[#008082] dark:text-[#00b3b3]">+91 8400306960</p>
               </div>
             </div>
           </div>

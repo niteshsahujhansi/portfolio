@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaTwitter, FaGlobe } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter, FaGlobe, FaFacebook, FaInstagram } from "react-icons/fa";
 
 const SocialLinks: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const SocialLinks: React.FC = () => {
         </h2>
         <div className="flex justify-center space-x-8">
           <a
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/nitesh-sahu-a427951b1/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-4xl text-[#008082] dark:text-[#00b3b3] hover:text-[#00b3b3]"
@@ -17,7 +17,7 @@ const SocialLinks: React.FC = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/your-profile"
+            href="https://github.com/niteshsahujhansi"
             target="_blank"
             rel="noopener noreferrer"
             className="text-4xl text-[#008082] dark:text-[#00b3b3] hover:text-[#00b3b3]"
@@ -25,7 +25,7 @@ const SocialLinks: React.FC = () => {
             <FaGithub />
           </a>
           <a
-            href="https://twitter.com/your-profile"
+            href="https://x.com/niteshsahujhs"
             target="_blank"
             rel="noopener noreferrer"
             className="text-4xl text-[#008082] dark:text-[#00b3b3] hover:text-[#00b3b3]"
@@ -33,12 +33,20 @@ const SocialLinks: React.FC = () => {
             <FaTwitter />
           </a>
           <a
-            href="https://yourwebsite.com"
+            href="https://www.facebook.com/nitesh.sahu.1612147/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-4xl text-[#008082] dark:text-[#00b3b3] hover:text-[#00b3b3]"
           >
-            <FaGlobe />
+            <FaFacebook />
+          </a>
+          <a
+            href="https://www.instagram.com/nitesh.sahu920/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-4xl text-[#008082] dark:text-[#00b3b3] hover:text-[#00b3b3]"
+          >
+            <FaInstagram />
           </a>
         </div>
       </div>

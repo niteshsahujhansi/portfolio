@@ -9,10 +9,10 @@ const Certificates: React.FC = () => {
       institution: "NPTEL – Indian Institute of Technology, Madras",
       duration: "07/2021 - 10/2021",
     },
-    {
-      title: "Kaggle - Python",
-      institution: "Kaggle",
-    },
+    // {
+    //   title: "Kaggle - Python",
+    //   institution: "Kaggle",
+    // },
     {
       title: "Data Analysis with Python: Zero to Pandas",
       institution: "Jovian",
@@ -27,7 +27,7 @@ const Certificates: React.FC = () => {
   return (
     <section className="py-16  text-gray-800 dark:text-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold mb-10 text-center text-[#008082] dark:text-gray-200">
+        <h2 className="h2-heading">
           Certificates
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -7,31 +7,48 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const Projects: React.FC = () => {
+  const the_flores_resort_images_path = Array.from({ length: 9 }, (_, index) => `/images/projects/the-flores-resort/${index + 1}.png`);
+  const tic_tac_toe_images_path = Array.from({ length: 3 }, (_, index) => `/images/projects/tic-tac-toe/${index + 1}.png`);
+  const ratcat_images_path = Array.from({ length: 10 }, (_, index) => `/images/projects/ratcat/${index + 1}.png`);
   const projects = [
     {
-      title: "Portfolio Website",
-      description: "A personal portfolio website built with React, Next.js, and Tailwind CSS.",
-      tech: "React, Next.js, Tailwind CSS",
+      title: "The Flores Resort",
+      description: "A luxury resort website that highlights its exclusive suites, residences, achievements, and cultural values, fostering transparency between the resort and its guests.",
+      tech: "HTML, CSS, JavaScript, VS Code",
       link: "https://your-portfolio.com",
-      github: "https://github.com/your-portfolio-repo",
-      images: ["/windows.svg", "/python.svg", "/my-photo.png"],
+      github: "https://github.com/niteshsahujhansi/The-Flores-Resort",
+      images: the_flores_resort_images_path
     },
     {
-      title: "E-commerce App",
-      description: "An online shopping platform with payment integration.",
-      tech: "React, Node.js, MongoDB",
-      link: "https://your-ecommerce.com",
-      github: "https://github.com/your-ecommerce-repo",
-      // images: ["/image1.png", "/image2.png", "/image3.png"],
-      images: [],
+      title: "Tic-Tac-Toe Game",
+      description: "Everybody plays tic-tac-toe in their childhood. It is an amazing feeling to program this game from scratch. AI is used in the unbeatable mode.",
+      tech: "Python, pygame, numpy, MinMax AI Algo",
+      link: "https://your-portfolio.com",
+      github: "https://github.com/niteshsahujhansi/tic-tac-toe-GUI-",
+      images: tic_tac_toe_images_path
     },
-    // Add more projects as needed...
+    {
+      title: "RatCat E-commerce",
+      description: "An online user-friendly e-commerce platform featuring intuitive navigation, dynamic product catalogs, responsive design, and real-time inventory management.",
+      tech: "Django, Python, SQLite, Bootstrap5, HTML/CSS, JavaScript",
+      link: "https://your-ecommerce.com",
+      github: "https://github.com/niteshsahujhansi/ecommerce-djangoproject-RatCat",
+      images: ratcat_images_path,
+    },
+    // {
+    //   title: "Fasion Recommender",
+    //   description: "A content-based image retrieval (CBIR) system uses ResNet50 convolutional neural network (CNN) to extract image features and k-NN for finding visually similar products, ideal for e-commerce recommendations",
+    //   tech: "sklearn, tensorflow, OpenCV, Matplotlib",
+    //   link: "https://your-ecommerce.com",
+    //   github: "https://github.com/niteshsahujhansi/fashion-recommender-system-cnn",
+    //   images: []
+    // }
   ];
 
   return (
-    <section className="py-16  text-gray-800 dark:text-white">
+    <section id="projects" className="py-16  text-gray-800 dark:text-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold mb-10 text-center text-[#008082] dark:text-[#00b3b3]">
+        <h2 className="h2-heading">
           Projects
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

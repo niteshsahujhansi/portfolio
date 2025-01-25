@@ -27,7 +27,7 @@ const BlogSection: React.FC = () => {
   return (
     <section className="py-16  text-gray-800 dark:text-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold mb-10 text-center text-[#008082] dark:text-[#00b3b3]">
+        <h2 className="h2-heading">
           My Blog
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

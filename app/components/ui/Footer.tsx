@@ -9,12 +9,12 @@ const Footer: React.FC = () => {
         <div className="flex justify-between items-center">
           <div>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+              &copy; {new Date().getFullYear()} nitesh sahu. All rights reserved.
             </p>
           </div>
 
-          <div className="flex space-x-6">
             {/* Social Media Links */}
+          {/* <div className="flex space-x-6">
             <a
               href="https://www.linkedin.com/in/your-profile"
               target="_blank"
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
                 />
               </svg>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

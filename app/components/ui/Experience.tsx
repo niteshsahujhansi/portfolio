@@ -6,7 +6,7 @@ const ExperienceSection: React.FC = () => {
   return (
     <section className="py-16  text-gray-800 dark:text-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold mb-10 text-center text-[#008082] dark:text-[#00b3b3]">
+        <h2 className="h2-heading">
           Experience
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
@@ -27,7 +27,7 @@ const ExperienceSection: React.FC = () => {
             </ul>
           </div>
           
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 border-l-4 border-[#008082] dark:border-[#00b3b3]">
+          {/* <div className="bg-white dark:bg-gray-800 rounded-lg p-6 border-l-4 border-[#008082] dark:border-[#00b3b3]">
             <h3 className="text-xl text-[#008082] dark:text-[#00b3b3] font-semibold mb-2">
               Frontend Developer Intern
             </h3>
@@ -42,7 +42,7 @@ const ExperienceSection: React.FC = () => {
               <li>Collaborated with backend developers to integrate APIs.</li>
               <li>Created responsive layouts with Tailwind CSS.</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

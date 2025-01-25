@@ -10,14 +10,21 @@ const TestImageSection: React.FC = () => {
     >
       {/* Text Section */}
       <div className="md:w-1/2 space-y-6 text-center md:text-left px-4">
+        
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white">
-          Explore Our Latest Projects
+        Hi, I'm Nitesh Sahu.
         </h1>
-        <p className="text-lg sm:text-xl md:text-lg text-gray-600 dark:text-gray-400">
-          We build efficient, scalable, and user-friendly web applications using modern technologies.
+        
+        <p className="text-md sm:text-lg text-gray-700 dark:text-gray-300">
+        I Build Modern, Scalable Web Applications and Enterprise Solutions.
         </p>
-        <p className="text-md sm:text-lg text-gray-500 dark:text-gray-300">
-          Our portfolio showcases projects we've worked on with React, Next.js, and Tailwind CSS.
+
+        <p className="text-lg sm:text-xl md:text-lg text-gray-600 dark:text-gray-400">
+        Full-Stack Developer passionate about creating user-friendly applications using Python, Next.js, and modern web technologies.
+        </p>
+        
+        <p className="text-lg sm:text-xl md:text-lg text-gray-600 dark:text-gray-400">
+        Let’s build something great together.
         </p>
       </div>
 

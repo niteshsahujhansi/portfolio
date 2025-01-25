@@ -23,12 +23,12 @@ export default function Home() {
       <Skills/>
       <Projects/>
       <Education/>
-      <Certificates/>
+      {/* <Certificates/> */}
       <Experience/>
-      <Blog/>
+      {/* <Blog/> */}
       <AboutMe/>
-      <SocialLinks/>  
-      <Testimonials/>
+      {/* <SocialLinks/>   */}
+      {/* <Testimonials/> */}
       <Contact/>
       <Footer/>
     </div>
